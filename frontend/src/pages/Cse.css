@@ -1,0 +1,48 @@
+.cse-header {
+    display: flex;
+    flex: auto;
+    width: 100%;
+    height: auto;
+    background: black;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.header-text{
+    text-align: center;
+    padding: 20px 20px 50px 80px;
+}
+
+.header-text h4{
+    font-size: 40px;
+    color: #fff;
+    
+}
+.header-text p2{
+    font-size: 18px;
+    font: bold;
+    color: #fff;
+}
+.header-img img{
+    width: 100%;
+    align-self: center;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.highlight .phs{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    z-index: 0;
+    margin: 5px;
+    display: inline-flex;
+    gap: 5px;
+}
+.highlight .phs p1{
+    color: maroon;
+}
+.highlight p{
+    margin: 10px;
+    padding-left: 10px;
+}

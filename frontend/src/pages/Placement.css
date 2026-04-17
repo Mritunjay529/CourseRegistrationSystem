@@ -1,0 +1,248 @@
+/* Placement Page Styles */
+
+/* Placement Stats */
+.placement-stats {
+  padding: 4rem 0;
+  background: #f8fafc;
+}
+
+.placement-stats h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a202c;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c5aa0;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+  color: #4a5568;
+  font-weight: 600;
+}
+
+/* Recruiters */
+.recruiters {
+  padding: 4rem 0;
+}
+
+.recruiters h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a202c;
+}
+
+.recruiters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.recruiter-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.recruiter-card:hover {
+  transform: translateY(-5px);
+}
+
+.recruiter-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Placement Process */
+.placement-process {
+  background: #f8fafc;
+  padding: 4rem 0;
+}
+
+.placement-process h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a202c;
+}
+
+.process-timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.timeline-marker {
+  width: 50px;
+  height: 50px;
+  background: #2c5aa0;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.timeline-content h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #1a202c;
+}
+
+/* Training Programs */
+.training-programs {
+  padding: 4rem 0;
+}
+
+.training-programs h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a202c;
+}
+
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.training-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.training-card i {
+  font-size: 3rem;
+  color: #2c5aa0;
+  margin-bottom: 1rem;
+}
+
+.training-card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #1a202c;
+}
+
+/* Success Stories */
+.success-stories {
+  background: #f8fafc;
+  padding: 4rem 0;
+}
+
+.success-stories h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a202c;
+}
+
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.story-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.story-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.story-content {
+  padding: 2rem;
+}
+
+.story-content h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #1a202c;
+}
+
+.designation {
+  color: #2c5aa0;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.package {
+  color: #059669;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.testimonial {
+  color: #4a5568;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Placement CTA */
+.placement-cta {
+  background: linear-gradient(135deg, #2c5aa0, #1e3a8a);
+  padding: 4rem 0;
+  text-align: center;
+  color: white;
+}
+
+.placement-cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.placement-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column;
+    text-align: center;
+  }
+}
